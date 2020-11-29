@@ -12,5 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+  return view('index');
+
+});
+
+Route::get('/cats', function () {
+
+  return view('cats');
+
+});
+
+Route::get('/dogs', function () {
+
+  return view('dogs');
+
 });
